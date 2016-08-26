@@ -1,0 +1,186 @@
+---
+title: "Analysis Sound using R"
+author: "Noah"
+date: '`r Sys.Date()`<br><br><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="創用 CC 授權條款" style="border-width:0" src="img/by-nc-sa-4.0-88x31.png" /></a>'
+output:
+  ioslides_presentation:
+    highlight: default
+    logo: img/Taiwan-R-logo.png
+    widescreen: yes
+    smaller: yes
+    transition: faster
+subtitle: "MS Community Open Campus 2016 <br>
+http://www.meetup.com/Taiwan-R"
+---
+
+
+```{r, echo=FALSE, message=FALSE}
+#library(swirl)
+rm(list=ls())
+```
+
+## Taiwan R User Group / MLDM Monday 
+<center><img src="img/MLDM3.png" height="80%" width="80%"></center>
+http://www.meetup.com/Taiwan-R
+
+
+<!--######################################################################################-->
+# Introduction to Sound
+<!--######################################################################################-->
+
+
+## Sound：Wave
+<img src="img/Spherical_pressure_waves.gif" style="float:right" height="45%" width="45%">
+
+<img src="img/Sine, square, triangle, and sawtooth.png" style="float:left" height="55%" width="55%"> 
+
+<br><br><br><br><br><br><br><br><br>
+https://en.wikipedia.org/wiki/Waveform
+
+## Sound:
+<center>
+<img src="img/Fourier_series_square_wave_circles_animation.gif" height="45%" width="45%"> 
+</center>
+<br><br>
+Fourier series
+https://en.wikipedia.org/wiki/Square_wave
+https://en.wikipedia.org/wiki/Fourier_series
+https://commons.wikimedia.org/wiki/File:Fourier_series_square_wave_circles_animation.gif
+
+
+
+
+## Sound:
+<img src="img/Wave_f_a.png" style="float:right" height="45%" width="45%">
+
+### **Frequency,** 
+### or its inverse, the Wavelength
+<br><br><br><br><br><br><br>
+https://en.wikipedia.org/wiki/Sound <br>
+
+
+
+## Sound:
+<img src="img/Wave_f_a.png" style="float:right" height="45%" width="45%">
+
+### Frequency, or its inverse, the Wavelength
+### **Amplitude**
+<br><br><br><br><br><br><br>
+https://en.wikipedia.org/wiki/Sound <br>
+
+
+## Sound:
+<img src="img/eu_threshold-of-pain.png" style="float:right" height="40%" width="40%">
+
+### Frequency, or the Wavelength
+### Amplitude
+### **Sound pressure / Intensity**
+<br><br><br><br><br><br>
+http://exp.rockfon.com/performance/acoustics/what+determines+room+acoustics-c7-/sound+pressure+level
+
+
+## Sound:
+<img src="img/speed_of_sound.jpg" style="float:right" height="45%" width="45%">
+
+### Frequency, or the Wavelength
+### Amplitude
+### Sound pressure / Intensity
+### **Speed of sound** = 340.29 m/s
+<br><br><br><br><br><br>
+http://physics.stackexchange.com/questions/142098/speed-of-sound-and-break-the-sound-barrier
+
+## Sound:
+<img src="img/sound_direction_responses_card-560x358.png" style="float:right" height="55%" width="55%">
+
+### Frequency, or the Wavelength
+### Amplitude
+### Sound pressure / Intensity
+### Speed of sound
+### **Direction** 
+<br><br><br><br><br>
+http://www.illusonic.com/dereverberation/ <br>
+
+## Sound:
+<center>
+<img src="img/2010_Yamato_Lab_Tourpic12.jpg" height="50%" width="50%">
+</center>
+http://www.tpuser.idv.tw/wp/?p=1030
+
+
+<!--######################################################################################-->
+# Introduction to R
+<!--######################################################################################-->
+
+
+## R：
+R was created by Ross Ihaka and Robert Gentleman at the University of Auckland, New Zealand. The initial version or R released in 1994 and a stable beta version in 2000.
+<br>
+<center>
+<img src="img/Robert Gentleman and Ross Ihaka.png" height="95%" width="95%">
+https://www.stat.auckland.ac.nz/S-Workshop/
+</center>
+<br>
+https://en.wikipedia.org/wiki/R_(programming_language)
+
+
+## R for enterprise:
+### Revolution Analytics
+[Revolution Analytics: a 5-minute history](http://www.slideshare.net/RevolutionAnalytics/revolution-analytics-a-5minute-history)
+
+<br>
+<center>
+<img src="img/Revolution Analytics Logo.png" height="75%" width="75%">
+</center>
+
+## R User Group Sponsorship Program: RevoRUGS
+### [User Groups and R Awareness , May 19, 2016](http://blog.revolutionanalytics.com/user-groups/)
+
+<center>
+<img src="img/meetuptop20-taiwan-r-user-group.png" height="95%" width="95%">
+</center>
+
+
+
+## R for enterprise:
+### [MS CEO Satya Nadella proclaimed **Microsoft loves Linux**](https://www.r-bloggers.com/revolution-analytics-joins-microsoft/)
+<center>
+<img src="img/MS buy RA Rblogger.png" height="85%" width="85%">
+</center>
+
+## R for enterprise: 
+### 　　　Revolution R Open 　　　　==> 　　　　Microsoft R Open <br>
+<img src="img/ReolutionROpen.png" style="float:left" height="45%" width="45%">
+<img src="img/MicrosoftROpen.png" style="float:right" height="50%" width="50%">
+
+
+## R packages and references website:
+### [The Comprehensive R Archive Network](https://cran.r-project.org/)
+<center>
+<img src="img/Rlogo.png" height="20%" width="20%">
+</center>
+
+### [Microsoft R Application Network](https://mran.microsoft.com/)
+<center>
+<img src="img/MicrosoftROpen.png" height="20%" width="20%">
+</center>
+
+<!--######################################################################################-->
+# Introduction to Sound Analysis
+<!--######################################################################################-->
+
+## Why 
+會學你說話的萌萌小倉鼠 - 要成為一位教宗不是那麼簡單的事情!! | 安啾 (ゝ∀･) ♡ 
+<br><br><br>
+<center>
+[![會學你說話的萌萌小倉鼠](http://img.youtube.com/vi/m8miV2JfeZk/0.jpg)](http://www.youtube.com/watch?v=m8miV2JfeZk "會學你說話的萌萌小倉鼠")
+</center>
+
+## Why
+<!--
+<iframe  title="YouTube video player" width="480" height="390" src="http://www.youtube.com/watch?v=E6kGEKxy_HU" frameborder="0"></iframe>
+-->
+【木下ゆうか】「今日はね！」を１年分まとめてみた
+<br><br><br>
+<center>
+[![【木下ゆうか】「今日はね！」を１年分まとめてみた](http://img.youtube.com/vi/E6kGEKxy_HU/0.jpg)](http://www.youtube.com/watch?v=E6kGEKxy_HU "【木下ゆうか】「今日はね！」を１年分まとめてみた")
+</center>
