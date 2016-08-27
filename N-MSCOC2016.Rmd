@@ -25,6 +25,84 @@ http://www.meetup.com/Taiwan-R
 
 
 <!--######################################################################################-->
+# Introduction to R
+<!--######################################################################################-->
+
+
+## R：
+R was created by Ross Ihaka and Robert Gentleman at the University of Auckland, New Zealand. The initial version or R released in 1994 and a stable beta version in 2000.
+<br>
+<center>
+<img src="img/Robert Gentleman and Ross Ihaka.png" height="95%" width="95%">
+https://www.stat.auckland.ac.nz/S-Workshop/
+</center>
+<br>
+https://en.wikipedia.org/wiki/R_(programming_language)
+
+## R:
+### What is R?
+R is a language and environment for statistical computing and graphics. It is a GNU project which is similar to the S language and environment which was developed at Bell Laboratories (formerly AT&T, now Lucent Technologies) by John Chambers and colleagues. R can be considered as a different implementation of S. There are some important differences, but much code written for S runs unaltered under R.
+https://www.r-project.org/about.html
+
+## R:getting popular
+### [TIOBE Index for August 2016](http://www.tiobe.com/tiobe-index/)
+<center>
+<img src="img/TIOBE Index for August 2016.png" height="65%" width="65%">
+</center>
+
+
+## R:getting popular
+### [TIOBE Index for August 2016: The R Programming Language](http://www.tiobe.com/tiobe-index/r/)
+<center>
+<img src="img/TIOBE The R Programming Language.png" height="65%" width="65%">
+</center>
+
+
+## R for enterprise:
+### Revolution Analytics
+[Revolution Analytics: a 5-minute history](http://www.slideshare.net/RevolutionAnalytics/revolution-analytics-a-5minute-history)
+
+<br>
+<center>
+<img src="img/Revolution Analytics Logo.png" height="75%" width="75%">
+</center>
+
+## R User Group Sponsorship Program: RevoRUGS
+### [User Groups and R Awareness , May 19, 2016](http://blog.revolutionanalytics.com/user-groups/)
+
+<center>
+<img src="img/meetuptop20-taiwan-r-user-group.png" height="95%" width="95%">
+</center>
+
+
+
+## R for enterprise:
+### [MS CEO Satya Nadella proclaimed **Microsoft loves Linux**](https://www.r-bloggers.com/revolution-analytics-joins-microsoft/)
+<center>
+<img src="img/MS buy RA Rblogger.png" height="85%" width="85%">
+</center>
+
+## R for enterprise: 
+### 　　　Revolution R Open 　　　　==> 　　　　Microsoft R Open <br>
+<img src="img/ReolutionROpen.png" style="float:left" height="45%" width="45%">
+<img src="img/MicrosoftROpen.png" style="float:right" height="50%" width="50%">
+
+
+## R packages and references website:
+### [The Comprehensive R Archive Network](https://cran.r-project.org/)
+<center>
+<img src="img/Rlogo.png" height="20%" width="20%">
+</center>
+
+### [Microsoft R Application Network](https://mran.microsoft.com/)
+<center>
+<img src="img/MicrosoftROpen.png" height="20%" width="20%">
+</center>
+
+
+
+
+<!--######################################################################################-->
 # Introduction to Sound
 <!--######################################################################################-->
 
@@ -46,8 +124,6 @@ Fourier series
 https://en.wikipedia.org/wiki/Square_wave
 https://en.wikipedia.org/wiki/Fourier_series
 https://commons.wikimedia.org/wiki/File:Fourier_series_square_wave_circles_animation.gif
-
-
 
 
 ## Sound:
@@ -106,64 +182,6 @@ http://www.illusonic.com/dereverberation/ <br>
 </center>
 http://www.tpuser.idv.tw/wp/?p=1030
 
-
-<!--######################################################################################-->
-# Introduction to R
-<!--######################################################################################-->
-
-
-## R：
-R was created by Ross Ihaka and Robert Gentleman at the University of Auckland, New Zealand. The initial version or R released in 1994 and a stable beta version in 2000.
-<br>
-<center>
-<img src="img/Robert Gentleman and Ross Ihaka.png" height="95%" width="95%">
-https://www.stat.auckland.ac.nz/S-Workshop/
-</center>
-<br>
-https://en.wikipedia.org/wiki/R_(programming_language)
-
-
-## R for enterprise:
-### Revolution Analytics
-[Revolution Analytics: a 5-minute history](http://www.slideshare.net/RevolutionAnalytics/revolution-analytics-a-5minute-history)
-
-<br>
-<center>
-<img src="img/Revolution Analytics Logo.png" height="75%" width="75%">
-</center>
-
-## R User Group Sponsorship Program: RevoRUGS
-### [User Groups and R Awareness , May 19, 2016](http://blog.revolutionanalytics.com/user-groups/)
-
-<center>
-<img src="img/meetuptop20-taiwan-r-user-group.png" height="95%" width="95%">
-</center>
-
-
-
-## R for enterprise:
-### [MS CEO Satya Nadella proclaimed **Microsoft loves Linux**](https://www.r-bloggers.com/revolution-analytics-joins-microsoft/)
-<center>
-<img src="img/MS buy RA Rblogger.png" height="85%" width="85%">
-</center>
-
-## R for enterprise: 
-### 　　　Revolution R Open 　　　　==> 　　　　Microsoft R Open <br>
-<img src="img/ReolutionROpen.png" style="float:left" height="45%" width="45%">
-<img src="img/MicrosoftROpen.png" style="float:right" height="50%" width="50%">
-
-
-## R packages and references website:
-### [The Comprehensive R Archive Network](https://cran.r-project.org/)
-<center>
-<img src="img/Rlogo.png" height="20%" width="20%">
-</center>
-
-### [Microsoft R Application Network](https://mran.microsoft.com/)
-<center>
-<img src="img/MicrosoftROpen.png" height="20%" width="20%">
-</center>
-
 <!--######################################################################################-->
 # Introduction to Sound Analysis
 <!--######################################################################################-->
@@ -184,3 +202,44 @@ https://en.wikipedia.org/wiki/R_(programming_language)
 <center>
 [![【木下ゆうか】「今日はね！」を１年分まとめてみた](http://img.youtube.com/vi/E6kGEKxy_HU/0.jpg)](http://www.youtube.com/watch?v=E6kGEKxy_HU "【木下ゆうか】「今日はね！」を１年分まとめてみた")
 </center>
+
+
+## Digital Sound format
+<img src="img/wav-sound-format.gif" style="float:right" height="60%" width="60%">
+<font size="7">
+[WAVE PCM soundfile format](http://soundfile.sapp.org/doc/WaveFormat/) <br>
+</font>
+
+The WAVE file format is a subset of Microsoft's RIFF specification for the storage of multimedia files.
+
+## Sound format
+### Simple Rate:
+<img src="img/Signal_Sampling2.png" style="float:left" height="50%" width="50%">
+<img src="img/Signal_Sampling1.png" style="float:right" height="50%" width="50%">
+<br><br><br>
+https://en.wikipedia.org/wiki/Sampling_(signal_processing)
+
+## Sound format
+### 　　　　　2 bit　　　　　　　　<==> 　　　　　　　3 bit　　 
+<img src="img/2-bit_resolution_analog_comparison.png" style="float:left" height="50%" width="50%">
+
+<img src="img/3-bit_resolution_analog_comparison.png" style="float:right" height="40%" width="40%">
+<br><br><br>
+https://en.wikipedia.org/wiki/Quantization_(signal_processing)
+
+
+## Q & A
+
+## Repect, Diversity
+
+<center>
+<img src="img/PyConAPAK KR Repect, Diversity.jpg" height="45%" width="45%">
+</center>
+
+## Repect, Diversity
+### PyConAPAC 2016 Korea / 파이콘 APAC 2016 
+<center>
+<br>
+<img src="img/PyConAPAC 2016 KR - Repect, Diversity.png" height="100%" width="100%">
+</center>
+
